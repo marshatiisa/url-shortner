@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use('/api', urlRoutes);
 
 // MongoDB connection
-const MONGO_URI = 'your_mongo_db_connection_string';
+const MONGO_URI = 'mongodb+srv://marshatiisa35:AMO2PoofVvESasns@cluster0.7s9doxi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
